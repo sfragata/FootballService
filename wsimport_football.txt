@@ -1,0 +1,1 @@
+wsimport -s src/main/java -keep -verbose -p com.sfragata.football.ws.client http://footballpool.dataaccess.eu/data/info.wso?WSDL
