@@ -9,10 +9,9 @@ J'ai créé cet exemple pour montrer comme utiliser le JAX-WS pour accéder un w
 
 ===============
 FootballService is an sample to access a webservice and at the same time I show how to expose a webservice (I created a webservice which calls other one)
-I use a public webservice (http://footballpool.dataaccess.eu/data/info.wso?WSDL)
-For this sample I created a webservice which is called "FootballService" and I created an operation which is called
-"getAllTeams". This service calls the operation "Teams" of the public webservice.
-I created this example to show how to use JAX-WS to access a webservice and also to show how to create a webservice.
+I've used a public webservice (http://footballpool.dataaccess.eu/data/info.wso?WSDL)
+For this sample I've created a webservice which is called "FootballService" and I've created an operation which is called "getAllTeams". This service calls the operation "Teams" of the public webservice.
+I've created this example to show how to use JAX-WS to access a webservice and also to show how to create a webservice.
 
 ===============
 FootballService é um exemplo de acesso a um webservice e mostra também como expor um webservice (Neste exemplo eu criei um webservice que chama outro)

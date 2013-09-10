@@ -37,7 +37,6 @@ public class FootballServiceImpl implements FootballService {
 	@Override
 	public List<Team> getAllTeams() {
 		List<Team> teams = new ArrayList<>();
-
 		Info info = new Info();
 		ArrayOftTeamInfo arrayTeams = info.getInfoSoap().teams();
 		try {
